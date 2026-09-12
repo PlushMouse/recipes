@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pageheader {
+    border-bottom: 2px solid rgb(233, 233, 233);
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 4px;
+}
+
+.home {
+    margin: 10px 40px 10px auto;
+    padding: 12px;
+    background-color: rgb(233, 233, 233);
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+
+.pagebody {
+    width: 800px;
+    margin: 80px auto;
+}
+
+li {
+    margin: 4px 24px;
+}
+
+ol li {
+    margin: 4px 32px;
+}
+
+a {
+    color: rgb(71, 144, 146);
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+p {
+    margin: 4px 0;
+}
+
+img {
+    width: 600px;
+    margin: 10px 0;
+    display: block;
+}
