@@ -30,10 +30,6 @@ body {
     flex: 0;
 }
 
-.pageheader {
-    border-bottom: 2px solid var(--light);
-}
-
 a {
     text-decoration: none;
 }
@@ -67,8 +63,29 @@ a {
 
 .pagebody {
     flex: 1;
-    width: 800px;
-    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    flex: 1;
+    padding: 32px;
+}
+
+.welcome {
+    background-color: var(--dark);
+}
+
+.info {
+    
+}
+
+.quote {
+    background-color: var(--light);
+}
+
+.action {
+
 }
 
 li {
