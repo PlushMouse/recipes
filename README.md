@@ -9,3 +9,8 @@ Used headers, link, lists, and images (w/ alt text) to create a well
 formatted an accessible website. 
 
 Was later dressed up with CSS.
+
+Photo Credits:
+https://www.pexels.com/@jose-antonio-otegui-auzmendi-2150489988/ (baked fish)
+https://www.pexels.com/@niferure/ (rice grains)
+https://www.pexels.com/@ivan-s/ (person making sushi)
