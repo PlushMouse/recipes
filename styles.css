@@ -8,6 +8,7 @@
 
 :root {
     --teal: #479092;
+    --darkteal: #345168;
     --light: #eeeeee;
     --dark: #171d2b;
 }
@@ -39,19 +40,29 @@ a {
 
 .logo {
     margin-right: auto;
+    height: 56px;
+    width: auto;
+    color: white;
 }
 
 .headerbutton {
-    padding: 8px;
+    padding: 8px 16px;
     background-color: var(--dark);
-    width: 100px;
     text-align: center;
     border-radius: 8px;
     color: white;
 }
 
+.headerbutton:hover {
+    background-color: var(--darkteal);
+}
+
 .home {
     background-color: var(--teal);
+}
+
+.home:hover {
+    background-color: var(--darkteal);
 }
 
 .pagebody {
