@@ -144,8 +144,21 @@ img.info:hover {
     border-color: white;
 }
 
-.quote {
+.quote.section {
     background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 160px;
+}
+
+p.quote {
+    font-size: large;
+    font-style: italic;
+}
+
+p.quote.author {
+    text-align: end;
 }
 
 .action {
