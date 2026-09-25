@@ -214,7 +214,13 @@ button.action:hover {
     color: var(--teal)
 }
 
-/* Below here lies old styles, for recipe pages */
+/* Recipe Body */
+div.recipe {
+    margin: 48px auto;
+    max-width: 800px;
+    justify-content: center;
+}
+
 li {
     margin: 4px 24px;
 }
@@ -235,13 +241,9 @@ p {
     margin: 4px 0;
 }
 
-/* Was responsible for styling images on recipe pages, re add later.
-img {
-    width: 600px;
+img.recipe {
     margin: 10px 0;
-    display: block;
 }
-*/
 
 /* Footer */
 
