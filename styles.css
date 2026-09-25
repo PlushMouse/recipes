@@ -166,6 +166,7 @@ img.info:hover {
 p.quote {
     font-size: large;
     font-style: italic;
+    color: var(--darkteal);
 }
 
 p.quote.author {
